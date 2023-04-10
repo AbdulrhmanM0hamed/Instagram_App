@@ -12,7 +12,8 @@ class Instagram extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("insta"),
+          title: Text("Mobile screen "),
+          backgroundColor: Colors.black,
         ),
       ),
     );
