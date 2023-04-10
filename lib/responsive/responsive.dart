@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Responsive extends StatefulWidget {
   const Responsive({super.key});
-
+  final mymobilescreen;
   @override
   State<Responsive> createState() => _ResponsiveState();
 }
@@ -11,8 +11,12 @@ class _ResponsiveState extends State<Responsive> {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(builder: (BuildContext, BoxConstraints) {
-      if (BoxConstraints.maxWidth) {
-      } else {}
+      if (BoxConstraints.maxWidth > 600 ) {
+         return 
+
+      } else {
+        return
+      }
     });
   }
 }
