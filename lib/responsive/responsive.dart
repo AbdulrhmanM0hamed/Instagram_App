@@ -10,6 +10,9 @@ class Responsive extends StatefulWidget {
 class _ResponsiveState extends State<Responsive> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return LayoutBuilder(builder: (BuildContext, BoxConstraints) {
+      if (BoxConstraints.maxWidth) {
+      } else {}
+    });
   }
 }
