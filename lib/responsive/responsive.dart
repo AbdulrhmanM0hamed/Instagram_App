@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class Responsive extends StatefulWidget {
   const Responsive({super.key});
   final mymobilescreen;
+  final mywebscreen ;
   @override
   State<Responsive> createState() => _ResponsiveState();
 }
