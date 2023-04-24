@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:instagram/screens/home.dart';
 
 class MobileScreen extends StatefulWidget {
   const MobileScreen({super.key});
@@ -53,7 +54,9 @@ class _MobileScreenState extends State<MobileScreen> {
       ),
       body: PageView(
         onPageChanged: (index) {},
-        children: [],
+        children: [
+          Home(),
+        ],
       ),
     );
   }
