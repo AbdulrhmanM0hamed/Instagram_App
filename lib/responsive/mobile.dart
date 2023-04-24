@@ -57,7 +57,12 @@ class _MobileScreenState extends State<MobileScreen> {
       ),
       body: PageView(
         onPageChanged: (index) {},
-        children: [Home(), Search(), Add_post(), Profile()],
+        children: [
+          Home(),
+          Search(),
+          Add_post(),
+          Profile(),
+        ],
       ),
     );
   }
