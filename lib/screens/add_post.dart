@@ -9,7 +9,6 @@ class Add_post extends StatelessWidget {
       appBar: AppBar(
         title: Text("Add post"),
       ),
-      body: Text("addpost"),
     );
   }
 }
