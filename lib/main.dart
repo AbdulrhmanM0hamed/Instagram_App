@@ -13,9 +13,10 @@ class Instagram extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: Responsive(
-      mymobilescreen: MobileScreen(),
-      mywebscreen: WebScreen(),
-    ));
+          mymobilescreen: MobileScreen(),
+          mywebscreen: WebScreen(),
+        ));
   }
 }
