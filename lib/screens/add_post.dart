@@ -5,6 +5,8 @@ class Add_post extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Text("addpost"),
+    );
   }
 }
