@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:instagram/screens/add_post.dart';
+import 'package:instagram/screens/favorite.dart';
 import 'package:instagram/screens/home.dart';
 import 'package:instagram/screens/profile.dart';
 import 'package:instagram/screens/search.dart';
@@ -61,12 +62,13 @@ class _MobileScreenState extends State<MobileScreen> {
       ),
       body: PageView(
         // onPageChanged: (index) {},
+        physics: NeverScrollableScrollPhysics(),
         controller: _pageController,
         children: [
           Home(),
           Search(),
           Add_post(),
-          Text("gg"),
+          Favorite(),
           Profile(),
         ],
       ),
