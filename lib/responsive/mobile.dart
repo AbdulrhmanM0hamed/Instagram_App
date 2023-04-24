@@ -24,6 +24,7 @@ class _MobileScreenState extends State<MobileScreen> {
               label: ""),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: ""),
           BottomNavigationBarItem(icon: Icon(Icons.add_circle), label: ""),
+          BottomNavigationBarItem(icon: Icon(Icons.favorite), label: ""),
         ],
       ),
     );
