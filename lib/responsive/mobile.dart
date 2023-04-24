@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:instagram/screens/add_post.dart';
 import 'package:instagram/screens/home.dart';
 import 'package:instagram/screens/search.dart';
 
@@ -58,6 +59,7 @@ class _MobileScreenState extends State<MobileScreen> {
         children: [
           Home(),
           Search(),
+          Add_post(),
         ],
       ),
     );
