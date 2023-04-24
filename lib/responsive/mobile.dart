@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram/screens/home.dart';
+import 'package:instagram/screens/search.dart';
 
 class MobileScreen extends StatefulWidget {
   const MobileScreen({super.key});
@@ -56,6 +57,7 @@ class _MobileScreenState extends State<MobileScreen> {
         onPageChanged: (index) {},
         children: [
           Home(),
+          Search(),
         ],
       ),
     );
