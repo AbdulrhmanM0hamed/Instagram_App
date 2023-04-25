@@ -22,7 +22,7 @@ class _MobileScreenState extends State<MobileScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: CupertinoTabBar(
-        backgroundColor: Color.fromARGB(185, 14, 13, 13),
+        backgroundColor: Colors.black,
         onTap: (index) {
           _pageController.jumpToPage(index);
           setState(() {
