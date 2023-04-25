@@ -38,7 +38,8 @@ class Home extends StatelessWidget {
               SizedBox(
                 width: 20,
               ),
-              Text("Abdo Mohamed")
+              Text("Abdo Mohamed"),
+              IconButton(onPressed: () {}, icon: Icon(Icons.more_vert))
             ],
           )
         ],
