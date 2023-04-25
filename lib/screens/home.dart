@@ -8,7 +8,10 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: SvgPicture.asset("assets/img/instagram.svg"),
+        title: SvgPicture.asset(
+          "assets/img/instagram.svg",
+          color: Colors.white,
+        ),
       ),
     );
   }
