@@ -30,7 +30,7 @@ class Home extends StatelessWidget {
               ),
             ),
       body: Container(
-        margin: EdgeInsets.symmetric(vertical: 30, horizontal: 30),
+        margin: EdgeInsets.symmetric(vertical: 60, horizontal: 50),
         child: Padding(
           padding: const EdgeInsets.only(top: 40),
           child: Column(
