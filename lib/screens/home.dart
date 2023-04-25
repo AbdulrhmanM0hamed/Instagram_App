@@ -88,7 +88,9 @@ class Home extends StatelessWidget {
             ),
             Text(
               "View all comment 100",
-              style: TextStyle(fontSize: 16),
+              style: TextStyle(
+                fontSize: 16,
+              ),
             )
           ],
         ),
