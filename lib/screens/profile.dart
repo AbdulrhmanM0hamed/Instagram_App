@@ -53,6 +53,9 @@ class Profile extends StatelessWidget {
               ),
               SizedBox(
                 width: 17,
+              ),
+              Column(
+                children: [],
               )
             ],
           )
