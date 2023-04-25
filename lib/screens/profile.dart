@@ -11,7 +11,11 @@ class Profile extends StatelessWidget {
         backgroundColor: Colors.black,
       ),
       body: Column(
-        children: [],
+        children: [
+          Row(
+            children: [],
+          )
+        ],
       ),
     );
   }
