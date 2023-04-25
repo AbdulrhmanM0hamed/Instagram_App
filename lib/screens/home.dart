@@ -39,6 +39,9 @@ class Home extends StatelessWidget {
                 width: 20,
               ),
               Text("Abdo Mohamed"),
+              Spacer(
+                flex: 1,
+              ),
               IconButton(onPressed: () {}, icon: Icon(Icons.more_vert))
             ],
           )
