@@ -38,6 +38,7 @@ class Home extends StatelessWidget {
               SizedBox(
                 width: 20,
               ),
+              Text("Abdo Mohamed")
             ],
           )
         ],
