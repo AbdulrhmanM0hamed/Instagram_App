@@ -6,26 +6,29 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final double widthScreen = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: Colors.black,
-      appBar: AppBar(
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: Icon(Icons.messenger_outline),
-          ),
-          IconButton(
-            onPressed: () {},
-            icon: Icon(Icons.logout),
-          ),
-        ],
-        backgroundColor: Colors.black,
-        title: SvgPicture.asset(
-          "assets/img/instagram.svg",
-          color: Colors.white,
-          height: 34,
-        ),
-      ),
+      appBar: widthScreen > 600
+          ? null
+          : AppBar(
+              actions: [
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.messenger_outline),
+                ),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.logout),
+                ),
+              ],
+              backgroundColor: Colors.black,
+              title: SvgPicture.asset(
+                "assets/img/instagram.svg",
+                color: Colors.white,
+                height: 34,
+              ),
+            ),
       body: Padding(
         padding: const EdgeInsets.only(top: 40),
         child: Column(
