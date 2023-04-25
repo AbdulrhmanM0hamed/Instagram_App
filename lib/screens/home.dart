@@ -10,7 +10,14 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.black,
       appBar: AppBar(
         actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.messenger_outline))
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.messenger_outline),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.logout),
+          ),
         ],
         backgroundColor: Colors.black,
         title: SvgPicture.asset(
