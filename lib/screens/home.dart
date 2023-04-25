@@ -31,10 +31,9 @@ class Home extends StatelessWidget {
           Row(
             children: [
               CircleAvatar(
-                radius: 26,
-                backgroundImage:
-                    AssetImage("assets/photo_2023-03-24_21-38-03.jpg"),
-              )
+                  radius: 26,
+                  backgroundImage:
+                      AssetImage("assets/photo_2023-03-24_21-38-03.jpg"))
             ],
           )
         ],
