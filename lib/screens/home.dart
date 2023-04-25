@@ -30,12 +30,11 @@ class Home extends StatelessWidget {
         children: [
           Row(
             children: [
-              Container(
-                decoration: BoxDecoration(
-                    image: DecorationImage(
-                        image:
-                            AssetImage("assets/hoto_2023-03-24_21-38-03.jpg"))),
-              ),
+              CircleAvatar(
+                radius: 26,
+                backgroundImage:
+                    AssetImage("assets/photo_2023-03-24_21-38-03.jpg"),
+              )
             ],
           )
         ],
