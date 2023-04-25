@@ -6,6 +6,7 @@ import 'package:instagram/screens/favorite.dart';
 import 'package:instagram/screens/home.dart';
 import 'package:instagram/screens/profile.dart';
 import 'package:instagram/screens/search.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class MobileScreen extends StatefulWidget {
   const MobileScreen({super.key});
