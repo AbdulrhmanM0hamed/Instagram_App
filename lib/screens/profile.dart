@@ -23,9 +23,8 @@ class Profile extends StatelessWidget {
                 ),
                 child: CircleAvatar(
                   radius: 40,
-                  backgroundImage: NetworkImage(
-                      // widget.snap["profileImg"],
-                      "https://i.pinimg.com/564x/94/df/a7/94dfa775f1bad7d81aa9898323f6f359.jpg"),
+                  backgroundImage:
+                      AssetImage("assets/photo_2023-03-24_21-38-03.jpg"),
                 ),
               ),
             ],
