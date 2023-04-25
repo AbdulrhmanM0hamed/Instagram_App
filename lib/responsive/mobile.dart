@@ -16,12 +16,10 @@ class MobileScreen extends StatefulWidget {
 
 class _MobileScreenState extends State<MobileScreen> {
   final PageController _pageController = PageController();
+  int currentpage = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Mobile screen "),
-      ),
       bottomNavigationBar: CupertinoTabBar(
         backgroundColor: Color.fromARGB(185, 14, 13, 13),
         onTap: (index) {
@@ -29,10 +27,10 @@ class _MobileScreenState extends State<MobileScreen> {
         },
         items: [
           BottomNavigationBarItem(
-              icon: Icon(
-                Icons.home,
-                color: Colors.white,
-              ),
+              icon: Icon(Icons.home,
+                  color: currentpage == 0
+                      ? Color.fromARGB(255, 66, 63, 63)
+                      : Colors.white),
               label: ""),
           BottomNavigationBarItem(
               icon: Icon(
