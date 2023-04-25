@@ -32,10 +32,13 @@ class Home extends StatelessWidget {
           children: [
             Row(
               children: [
-                CircleAvatar(
-                  radius: 26,
-                  backgroundImage:
-                      AssetImage("assets/photo_2023-03-24_21-38-03.jpg"),
+                Padding(
+                  padding: const EdgeInsets.only(left: 10),
+                  child: CircleAvatar(
+                    radius: 26,
+                    backgroundImage:
+                        AssetImage("assets/photo_2023-03-24_21-38-03.jpg"),
+                  ),
                 ),
                 SizedBox(
                   width: 20,
