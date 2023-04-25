@@ -29,7 +29,11 @@ class Home extends StatelessWidget {
       body: Column(
         children: [
           Row(
-            children: [CircleAvatar()],
+            children: [
+              CircleAvatar(
+                radius: 26,
+              ),
+            ],
           )
         ],
       ),
