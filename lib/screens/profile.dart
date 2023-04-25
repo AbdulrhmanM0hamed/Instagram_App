@@ -76,6 +76,9 @@ class Profile extends StatelessWidget {
                     color: Colors.grey),
               ),
             ],
+          ),
+          SizedBox(
+            width: 17,
           )
         ],
       ),
