@@ -76,8 +76,10 @@ class Home extends StatelessWidget {
               ],
             ),
             Text("10 likes"),
-            SizedBox()
-            Text("Abdo Mohamed"),
+            SizedBox(
+              height: 10,
+            ),
+            Text("Abdo Mohamed", style: ,),
           ],
         ),
       ),
