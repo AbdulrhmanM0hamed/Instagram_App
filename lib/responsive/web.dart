@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:instagram/screens/add_post.dart';
 import 'package:instagram/screens/favorite.dart';
 import 'package:instagram/screens/home.dart';
@@ -54,10 +55,10 @@ class _WebScreenState extends State<WebScreen> {
             onPressed: () {},
           ),
         ],
-        backgroundColor: mobileBackgroundColor,
+        backgroundColor: Colors.black,
         title: SvgPicture.asset(
           "assets/img/instagram.svg",
-          color: primaryColor,
+          color: Color.fromARGB(255, 76, 75, 75),
           height: 32,
         ),
       ),
