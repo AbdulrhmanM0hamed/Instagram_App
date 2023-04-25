@@ -13,6 +13,7 @@ class Home extends StatelessWidget {
         title: SvgPicture.asset(
           "assets/img/instagram.svg",
           color: Colors.white,
+          height: 34,
         ),
       ),
     );
