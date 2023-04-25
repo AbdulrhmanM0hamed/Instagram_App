@@ -10,6 +10,9 @@ class Profile extends StatelessWidget {
         title: Text("Abdo Mohamed"),
         backgroundColor: Colors.black,
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
