@@ -26,26 +26,29 @@ class Home extends StatelessWidget {
           height: 34,
         ),
       ),
-      body: Column(
-        children: [
-          Row(
-            children: [
-              CircleAvatar(
-                radius: 26,
-                backgroundImage:
-                    AssetImage("assets/photo_2023-03-24_21-38-03.jpg"),
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              Text("Abdo Mohamed"),
-              Spacer(
-                flex: 1,
-              ),
-              IconButton(onPressed: () {}, icon: Icon(Icons.more_vert))
-            ],
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.only(top: 40),
+        child: Column(
+          children: [
+            Row(
+              children: [
+                CircleAvatar(
+                  radius: 26,
+                  backgroundImage:
+                      AssetImage("assets/photo_2023-03-24_21-38-03.jpg"),
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                Text("Abdo Mohamed"),
+                Spacer(
+                  flex: 1,
+                ),
+                IconButton(onPressed: () {}, icon: Icon(Icons.more_vert))
+              ],
+            )
+          ],
+        ),
       ),
     );
   }
