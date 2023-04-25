@@ -32,8 +32,8 @@ class _MobileScreenState extends State<MobileScreen> {
           BottomNavigationBarItem(
               icon: Icon(Icons.home,
                   color: currentpage == 0
-                      ? Color.fromARGB(255, 66, 63, 63)
-                      : Colors.white),
+                      ? Color.fromARGB(255, 255, 255, 255)
+                      : Color.fromARGB(255, 76, 75, 75)),
               label: ""),
           BottomNavigationBarItem(
               icon: Icon(
