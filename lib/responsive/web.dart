@@ -16,50 +16,47 @@ class WebScreen extends StatefulWidget {
 class _WebScreenState extends State<WebScreen> {
   @override
   Widget build(BuildContext context) {
-    final double widthScreen = MediaQuery.of(context).size.width;
     return Scaffold(
-      appBar: widthScreen > 600
-          ? null
-          : AppBar(
-              actions: [
-                IconButton(
-                  icon: Icon(
-                    Icons.home,
-                    color: Color.fromARGB(255, 76, 75, 75),
-                  ),
-                  onPressed: () {},
-                ),
-                IconButton(
-                  icon: Icon(
-                    Icons.search,
-                    color: Color.fromARGB(255, 76, 75, 75),
-                  ),
-                  onPressed: () {},
-                ),
-                IconButton(
-                  icon: Icon(
-                    Icons.add_a_photo,
-                    color: Color.fromARGB(255, 76, 75, 75),
-                  ),
-                  onPressed: () {},
-                ),
-                IconButton(
-                  icon: Icon(
-                    Icons.favorite,
-                    color: Color.fromARGB(255, 76, 75, 75),
-                  ),
-                  onPressed: () {},
-                ),
-                IconButton(
-                  icon: Icon(
-                    Icons.person,
-                    color: Color.fromARGB(255, 76, 75, 75),
-                  ),
-                  onPressed: () {},
-                ),
-              ],
-              backgroundColor: Colors.black,
+      appBar: AppBar(
+        actions: [
+          IconButton(
+            icon: Icon(
+              Icons.home,
+              color: Color.fromARGB(255, 76, 75, 75),
             ),
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: Icon(
+              Icons.search,
+              color: Color.fromARGB(255, 76, 75, 75),
+            ),
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: Icon(
+              Icons.add_a_photo,
+              color: Color.fromARGB(255, 76, 75, 75),
+            ),
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: Icon(
+              Icons.favorite,
+              color: Color.fromARGB(255, 76, 75, 75),
+            ),
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: Icon(
+              Icons.person,
+              color: Color.fromARGB(255, 76, 75, 75),
+            ),
+            onPressed: () {},
+          ),
+        ],
+        backgroundColor: Colors.black,
+      ),
       body: PageView(
         onPageChanged: (index) {},
         physics: NeverScrollableScrollPhysics(),
