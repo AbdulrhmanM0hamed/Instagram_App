@@ -29,6 +29,7 @@ class Profile extends StatelessWidget {
               ),
               Expanded(
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [],
                 ),
               )
