@@ -50,6 +50,9 @@ class Profile extends StatelessWidget {
                     ),
                   ],
                 ),
+              ),
+              SizedBox(
+                width: 17,
               )
             ],
           )
