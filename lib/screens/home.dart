@@ -79,7 +79,10 @@ class Home extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            Text("Abdo Mohamed", style: ,),
+            Text(
+              "Abdo Mohamed",
+              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+            ),
           ],
         ),
       ),
