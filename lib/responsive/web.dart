@@ -56,11 +56,6 @@ class _WebScreenState extends State<WebScreen> {
           ),
         ],
         backgroundColor: Colors.black,
-        title: SvgPicture.asset(
-          "assets/img/instagram.svg",
-          color: Color.fromARGB(255, 76, 75, 75),
-          height: 32,
-        ),
       ),
       body: PageView(
         onPageChanged: (index) {},
@@ -70,7 +65,6 @@ class _WebScreenState extends State<WebScreen> {
           Home(),
           Search(),
           Add_post(),
-          Center(child: Text("Love u ♥")),
           Favorite(),
           Profile(),
         ],
