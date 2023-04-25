@@ -26,7 +26,13 @@ class Home extends StatelessWidget {
           height: 34,
         ),
       ),
-      body: Column(),
+      body: Column(
+        children: [
+          Row(
+            children: [CircleAvatar()],
+          )
+        ],
+      ),
     );
   }
 }
