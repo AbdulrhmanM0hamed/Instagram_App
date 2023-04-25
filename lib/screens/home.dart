@@ -29,6 +29,7 @@ class Home extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.only(top: 40),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
               children: [
