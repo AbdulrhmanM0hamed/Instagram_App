@@ -42,7 +42,7 @@ class _WebScreenState extends State<WebScreen> {
           IconButton(
             icon: Icon(
               Icons.favorite,
-              color: secondaryColor,
+              color: Color.fromARGB(255, 76, 75, 75),
             ),
             onPressed: () {},
           ),
