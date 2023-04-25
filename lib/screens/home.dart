@@ -9,6 +9,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
+        actions: [ic, Icon(Icons.logout)],
         backgroundColor: Colors.black,
         title: SvgPicture.asset(
           "assets/img/instagram.svg",
