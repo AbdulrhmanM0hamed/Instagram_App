@@ -27,6 +27,11 @@ class Profile extends StatelessWidget {
                       AssetImage("assets/photo_2023-03-24_21-38-03.jpg"),
                 ),
               ),
+              Expanded(
+                child: Row(
+                  children: [],
+                ),
+              )
             ],
           )
         ],
