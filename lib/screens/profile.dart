@@ -55,7 +55,15 @@ class Profile extends StatelessWidget {
                 width: 17,
               ),
               Column(
-                children: [],
+                children: [
+                  Text(
+                    "Posts",
+                    style: TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.grey),
+                  ),
+                ],
               )
             ],
           )
