@@ -35,6 +35,9 @@ class Home extends StatelessWidget {
                 backgroundImage:
                     AssetImage("assets/photo_2023-03-24_21-38-03.jpg"),
               ),
+              SizedBox(
+                width: 20,
+              ),
             ],
           )
         ],
