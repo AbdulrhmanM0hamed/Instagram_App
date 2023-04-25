@@ -26,6 +26,7 @@ class Home extends StatelessWidget {
           height: 34,
         ),
       ),
+      body: Column(),
     );
   }
 }
