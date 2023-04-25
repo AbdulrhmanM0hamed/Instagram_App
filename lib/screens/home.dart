@@ -73,7 +73,8 @@ class Home extends StatelessWidget {
                   icon: Icon(Icons.send),
                 ),
               ],
-            )
+            ),
+            Text("Abdo Mohamed"),
           ],
         ),
       ),
