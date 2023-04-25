@@ -75,6 +75,8 @@ class Home extends StatelessWidget {
                 ),
               ],
             ),
+            Text("10 likes"),
+            SizedBox()
             Text("Abdo Mohamed"),
           ],
         ),
