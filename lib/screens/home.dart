@@ -68,6 +68,10 @@ class Home extends StatelessWidget {
                   onPressed: () {},
                   icon: Icon(Icons.chat_bubble_outline),
                 ),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.send),
+                ),
               ],
             )
           ],
