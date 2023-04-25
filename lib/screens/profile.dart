@@ -54,17 +54,17 @@ class Profile extends StatelessWidget {
               SizedBox(
                 width: 17,
               ),
-              Column(
-                children: [
-                  Text(
-                    "Posts",
-                    style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.grey),
-                  ),
-                ],
-              )
+            ],
+          ),
+          Column(
+            children: [
+              Text(
+                "Posts",
+                style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.grey),
+              ),
             ],
           )
         ],
