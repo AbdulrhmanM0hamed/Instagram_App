@@ -24,6 +24,9 @@ class _MobileScreenState extends State<MobileScreen> {
         backgroundColor: Color.fromARGB(185, 14, 13, 13),
         onTap: (index) {
           _pageController.jumpToPage(index);
+          setState(() {
+            currentpage = index;
+          });
         },
         items: [
           BottomNavigationBarItem(
