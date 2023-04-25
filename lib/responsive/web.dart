@@ -35,7 +35,7 @@ class _WebScreenState extends State<WebScreen> {
           IconButton(
             icon: Icon(
               Icons.add_a_photo,
-              color: secondaryColor,
+              color: Color.fromARGB(255, 76, 75, 75),
             ),
             onPressed: () {},
           ),
